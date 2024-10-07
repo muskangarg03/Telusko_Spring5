@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+        
+<!-- 
+        <bean id="alien" class="com.telusko.SpringDemo.Alien">	
+            <property name="age" value="10"></property>	
+        	<property name="com" ref="laptop"></property>
+        </bean>
+      
+        <bean id="alien" class="com.telusko.SpringDemo.Alien">	
+            <property name="age" value="10"></property>	
+        	<property name="com" ref="dekstop"></property>
+        </bean>
+-->
+
+<!--  
+		<bean id="alien" class="com.telusko.SpringDemo.Alien" autowire="byName">	
+            <property name="age" value="10"></property>	
+//        <property name="com" ref="com"></property>   
+        </bean>
+      
+
+        <bean id="alien" class="com.telusko.SpringDemo.Alien" autowire="byType">	
+            <property name="age" value="10"></property>	
+        </bean>
+-->  
+
+ 		<bean id="alien" class="com.telusko.SpringDemo.Alien" autowire="byType">	
+            <property name="age" value="10"></property>	
+<!--        <property name="com" ref="com"></property>	-->
+        </bean>  
+
+		
+    
+        <bean id="com" class="com.telusko.SpringDemo.Laptop" primary="true"></bean>  <!-- prefernce will be given to this bean is case of conflict of byType -->	
+        
+<!--    <bean id="laptop" class="com.telusko.SpringDemo.Laptop"></bean>	-->
+        <bean id="dekstop" class="com.telusko.SpringDemo.Dekstop"></bean>
+</beans>
