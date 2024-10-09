@@ -5,6 +5,14 @@ public class Alien
 	
 	private int aid;
 	private String aname;
+	
+	
+	public Alien(int aid, String aname) {
+		super();
+		this.aid = aid;
+		this.aname = aname;
+	}
+	
 	public int getAid() {
 		return aid;
 	}
