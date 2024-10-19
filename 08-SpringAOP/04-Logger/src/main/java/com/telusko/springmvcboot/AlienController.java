@@ -27,13 +27,10 @@ public class AlienController {
 	@GetMapping(path="aliens", produces= {"application/xml"})
 	public List<Alien> getAliens() 
 	{
-		//System.out.println("getAliens method called");
+		System.out.println("getAliens method called");
 		
 		List<Alien> aliens  = repo.findAll();		
 		
-		int i=9/0;
-		
-		System.out.println("fetching aliens");
 		return aliens;	
 	}
 	

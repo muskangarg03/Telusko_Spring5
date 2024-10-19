@@ -1,0 +1,72 @@
+2024-10-19 15:34:52.313  INFO 30864 --- [main] c.t.s.DemoTeluskoApplicationTests        : Starting DemoTeluskoApplicationTests using Java 17.0.10 on DESKTOP-SUR0V7H with PID 30864 (started by DELL in D:\Muskan Garg\Telusko_Spring5\DemoTelusko)
+2024-10-19 15:34:52.315  INFO 30864 --- [main] c.t.s.DemoTeluskoApplicationTests        : No active profile set, falling back to 1 default profile: "default"
+2024-10-19 15:34:53.207  INFO 30864 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-19 15:34:53.302  INFO 30864 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 78 ms. Found 1 JPA repository interfaces.
+2024-10-19 15:34:54.285  INFO 30864 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-19 15:34:55.083  INFO 30864 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-19 15:34:55.176  INFO 30864 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-19 15:34:55.386  INFO 30864 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2024-10-19 15:34:55.766  INFO 30864 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-10-19 15:34:56.112  INFO 30864 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2024-10-19 15:34:57.002  INFO 30864 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-10-19 15:34:57.017  INFO 30864 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-19 15:34:58.380  WARN 30864 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-19 15:34:58.918  INFO 30864 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-10-19 15:34:59.727  INFO 30864 --- [main] c.t.s.DemoTeluskoApplicationTests        : Started DemoTeluskoApplicationTests in 9.246 seconds (JVM running for 10.972)
+2024-10-19 15:35:00.678  INFO 30864 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-19 15:35:00.683  INFO 30864 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-19 15:35:00.706  INFO 30864 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-19 15:39:58.035  INFO 28400 --- [main] c.t.s.DemoTeluskoApplicationTests        : Starting DemoTeluskoApplicationTests using Java 17.0.10 on DESKTOP-SUR0V7H with PID 28400 (started by DELL in D:\Muskan Garg\Telusko_Spring5\DemoTelusko)
+2024-10-19 15:39:58.059  INFO 28400 --- [main] c.t.s.DemoTeluskoApplicationTests        : No active profile set, falling back to 1 default profile: "default"
+2024-10-19 15:39:58.798  INFO 28400 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-19 15:39:58.849  INFO 28400 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 42 ms. Found 1 JPA repository interfaces.
+2024-10-19 15:39:59.853  INFO 28400 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-19 15:40:00.918  INFO 28400 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-19 15:40:01.022  INFO 28400 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-19 15:40:01.142  INFO 28400 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2024-10-19 15:40:01.426  INFO 28400 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-10-19 15:40:01.688  INFO 28400 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2024-10-19 15:40:02.412  INFO 28400 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-10-19 15:40:02.432  INFO 28400 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-19 15:40:03.713  WARN 28400 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-19 15:40:04.356  INFO 28400 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-10-19 15:40:05.226  INFO 28400 --- [main] c.t.s.DemoTeluskoApplicationTests        : Started DemoTeluskoApplicationTests in 7.735 seconds (JVM running for 9.062)
+2024-10-19 15:40:05.772  INFO 28400 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-19 15:40:05.775  INFO 28400 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-19 15:40:05.794  INFO 28400 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-19 17:15:50.320  INFO 31964 --- [main] c.t.s.DemoTeluskoApplicationTests        : Starting DemoTeluskoApplicationTests using Java 17.0.10 on DESKTOP-SUR0V7H with PID 31964 (started by DELL in D:\Muskan Garg\Telusko_Spring5\DemoTelusko)
+2024-10-19 17:15:50.324  INFO 31964 --- [main] c.t.s.DemoTeluskoApplicationTests        : No active profile set, falling back to 1 default profile: "default"
+2024-10-19 17:15:51.165  INFO 31964 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-19 17:15:51.247  INFO 31964 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 66 ms. Found 1 JPA repository interfaces.
+2024-10-19 17:15:53.766  INFO 31964 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-19 17:15:54.449  INFO 31964 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-19 17:15:54.550  INFO 31964 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-19 17:15:54.671  INFO 31964 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2024-10-19 17:15:54.938  INFO 31964 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-10-19 17:15:55.137  INFO 31964 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2024-10-19 17:15:55.741  INFO 31964 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-10-19 17:15:55.754  INFO 31964 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-19 17:15:56.596  WARN 31964 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-19 17:15:57.140  INFO 31964 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-10-19 17:15:57.525  INFO 31964 --- [main] c.t.s.DemoTeluskoApplicationTests        : Started DemoTeluskoApplicationTests in 7.689 seconds (JVM running for 9.068)
+2024-10-19 17:15:57.879  INFO 31964 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-19 17:15:57.883  INFO 31964 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-19 17:15:57.909  INFO 31964 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-19 17:17:14.584  INFO 26372 --- [main] c.t.s.DemoTeluskoApplicationTests        : Starting DemoTeluskoApplicationTests using Java 17.0.10 on DESKTOP-SUR0V7H with PID 26372 (started by DELL in D:\Muskan Garg\Telusko_Spring5\DemoTelusko)
+2024-10-19 17:17:14.588  INFO 26372 --- [main] c.t.s.DemoTeluskoApplicationTests        : No active profile set, falling back to 1 default profile: "default"
+2024-10-19 17:17:15.971  INFO 26372 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-19 17:17:16.145  INFO 26372 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 150 ms. Found 1 JPA repository interfaces.
+2024-10-19 17:17:17.318  INFO 26372 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-19 17:17:18.118  INFO 26372 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-19 17:17:18.198  INFO 26372 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-19 17:17:18.313  INFO 26372 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2024-10-19 17:17:18.864  INFO 26372 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-10-19 17:17:19.146  INFO 26372 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2024-10-19 17:17:20.167  INFO 26372 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-10-19 17:17:20.189  INFO 26372 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-19 17:17:21.192  WARN 26372 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-19 17:17:21.538  INFO 26372 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-10-19 17:17:21.915  INFO 26372 --- [main] c.t.s.DemoTeluskoApplicationTests        : Started DemoTeluskoApplicationTests in 7.848 seconds (JVM running for 9.236)
+2024-10-19 17:17:22.186  INFO 26372 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-19 17:17:22.189  INFO 26372 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-19 17:17:22.204  INFO 26372 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

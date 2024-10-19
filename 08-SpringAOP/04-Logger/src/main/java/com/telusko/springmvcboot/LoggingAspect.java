@@ -1,6 +1,5 @@
 package com.telusko.springmvcboot;
 
-import org.aspectj.lang.annotation.After;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
 import org.slf4j.Logger;
@@ -18,15 +17,8 @@ public class LoggingAspect
 	private static final Logger LOGGER = LoggerFactory.getLogger(LoggingAspect.class);
 	
 	@Before("execution(public * com.telusko.springmvcboot.AlienController.getAliens())")
-	public void logBefore()
+	public void log()
 	{
 		LOGGER.info("getAliens method called from Aspect");
-	}
-	
-	
-	@After("execution(public * com.telusko.springmvcboot.AlienController.getAliens())")
-	public void logAfter()
-	{
-		LOGGER.info("getAliens method Executed");
 	}
 }
